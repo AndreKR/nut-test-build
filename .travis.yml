@@ -1,6 +1,6 @@
 script:
-- apt update
-- apt install git autoconf libtool pkg-config python g++ libusb-dev # libusb-1.0-0-dev
+- sudo apt update
+- sudo apt install git autoconf libtool pkg-config python g++ libusb-dev # libusb-1.0-0-dev
 - git clone https://github.com/networkupstools/nut.git
 - cd nut
 - # git checkout libusb-1.0
