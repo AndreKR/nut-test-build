@@ -2,10 +2,10 @@ language: c
 
 script:
 - sudo apt update
-- sudo apt install git curl autoconf libtool pkg-config python g++ libusb-dev # libusb-1.0-0-dev
+- sudo apt install git curl autoconf libtool pkg-config python g++ libusb-1.0-0-dev
 - git clone https://github.com/networkupstools/nut.git
 - cd nut
-- # git checkout libusb-1.0
+- git checkout libusb-1.0
 - ./autogen.sh
 - ./configure --with-usb
 - make
