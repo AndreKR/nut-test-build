@@ -10,3 +10,4 @@ script:
 - ./configure --with-usb
 - make
 - curl -F file="@drivers/usbhid-ups" https://filebin.ca/upload.php
+- sha1sum drivers/usbhid-ups
